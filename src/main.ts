@@ -10,6 +10,7 @@ async function bootstrap() {
   .setTitle('Funded API')
   .setDescription('API for the Funded client')
   .setVersion('1.0')
+  .addTag('projects')
   .build();
 
   const document = SwaggerModule.createDocument(app, config);
